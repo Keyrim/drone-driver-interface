@@ -1,9 +1,14 @@
 {
-  "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
-  "cmake.configureOnOpen": true,
   "files.encoding": "utf8",
   "editor.renderWhitespace": "all",
+  "files.trimTrailingWhitespace": true,
   "editor.rulers": [
       100
-  ]
+  ],
+  "files.associations": {
+    "bus.h": "c",
+    "stdint.h": "c",
+    "math.h": "c",
+    "gyro_acc_mpu6050.h": "c"
+  }
 }
